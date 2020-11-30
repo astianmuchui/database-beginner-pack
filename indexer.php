@@ -8,7 +8,7 @@
             //call the insert function
             $status = insert($name,$color,$cost);
             
-            if($status ===true){
+            if($status === true){
                 echo "sucess";
             }else {
                 echo "failed";
@@ -25,7 +25,7 @@
     </head>
     <body>
         <center>
-        <form action="index.php" method="post">
+        <form action="indexer.php" method="post">
             <label>Stock name</label> <br>
             <input type="text" name="stock-name"> <br>
 
